@@ -1,6 +1,19 @@
 import os
 import discord
-import reader
+
+exec
+(
+    compile
+    (
+        open
+        (
+            #include external file names here
+            'reader.py'
+        )
+        .read()
+    )
+)
+
 
 #importaint fonctionality
 #1. read from xml 
